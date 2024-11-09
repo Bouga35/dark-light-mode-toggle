@@ -1,23 +1,17 @@
-import logo from './logo.svg';
+// src/App.js
 import './App.css';
+import Header from './Header';
+import ThemeToggle from './ThemeToggle';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="min-h-screen animated-bg dark:bg-gray-900 text-black dark:text-white">
+      <Header />
+      <main className="flex flex-col items-center justify-center min-h-screen text-center p-6">
+        <h1 className="text-4xl font-bold mb-4">Welcome to My Website</h1>
+        <p className="mb-6">This is a simple React app with a responsive header and animated background.</p>
+        <ThemeToggle />
+      </main>
     </div>
   );
 }
