@@ -31,7 +31,7 @@ function App() {
 function Home() {
   return (
     <div>
-      <h1 className="text-4xl font-bold mb-4">Welcome to Our Website dial lala samhane mn hena tal lhih</h1>
+      <h1 className="text-4xl font-bold mb-4">Welcome to Our Web</h1>
       <p>This is a simple React app with a responsive header and animated background.</p>
     </div>
   );
